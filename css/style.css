@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Helvetica MS", sans-serif;
+	background: url(../images/fundo.jpg) no-repeat ; 
+	background-size: cover;
+}
+
+#container{
+	position: absolute;
+	left: 35%;
+	top: 20%;
+	color: #000;
+
+}
+
+#container #login{
+	width: 400px;
+	padding: 15% 40% 15% 18%;
+	border-radius: 20px;
+	box-sizing: border-box;
+	background: #C0C0C0;
+	background: rgb(192, 192, 192, 0.7);
+	
+}
+
+
+#container img{
+	width: 80px;
+	left: 40%;
+	top: -30px;
+	position: absolute;
+	background: #2469B9 ;
+	border-radius: 100px;
+}
+
+#login label{
+	padding: 0 45% 20px 0;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+
+#container input{
+	width: 250px;
+	height: 25px;
+	background-position: 10px;
+}
+
+#container button{
+	margin: 10px 0 0 50px;
+	position: relative;
+	padding: 5px;
+	width: 150px;
+	background: #479F0D;
+	color: white;
+	border-radius: 10px;
+
+	
+}
+
+#container button:hover{
+	background: #229954	;
+}
+
+#login h3{
+	font-size: 2.3em;
+	text-align: center;
+	padding: 7px 0;
+	padding-left: 75px;
+}
+
+
+
